@@ -1,0 +1,15 @@
+pl\polsl\mostowska\integrationwebapp\model\IntegrationModel.class
+pl\polsl\mostowska\integrationwebapp\IntegrationErrorHandler$IntegrationError.class
+pl\polsl\mostowska\integrationwebapp\model\FunctionModel.class
+pl\polsl\mostowska\integrationwebapp\model\ResultsEntity.class
+pl\polsl\mostowska\integrationwebapp\IntegrationErrorHandler.class
+pl\polsl\mostowska\integrationwebapp\model\Rectangle.class
+pl\polsl\mostowska\integrationwebapp\model\QuadraticFunction.class
+pl\polsl\mostowska\integrationwebapp\model\FunctionData.class
+pl\polsl\mostowska\integrationwebapp\model\Trapezoid.class
+pl\polsl\mostowska\integrationwebapp\resources\JakartaEE10Resource.class
+pl\polsl\mostowska\integrationwebapp\model\IntegrationParameters.class
+pl\polsl\mostowska\integrationwebapp\JakartaRestConfiguration.class
+pl\polsl\mostowska\integrationwebapp\model\LinearFunction.class
+pl\polsl\mostowska\integrationwebapp\servlet\HistoryServlet.class
+pl\polsl\mostowska\integrationwebapp\servlet\IntegrationServlet.class

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numerical Integration</title>
+    </head>
+    <body>
+    <h1>Numerical Integration</h1>
+    <form action="IntegrationServlet" method="POST">
+        <label>Integration Method:</label><br>
+        <input type="radio" name="method" value="trapezoid" checked> Trapezoid <br>
+        <input type="radio" name="method" value="rectangle"> Rectangle <br>
+        <br><br>
+        <label for="function">Function:</label>
+        <select name="function" id="function" required>
+            <option value="linear">Linear (f(x) = x)</option>
+            <option value="quadratic">Quadratic (f(x) = x^2)</option>
+        </select>
+        <br><br>
+        <label for="a">a:</label>
+        <input type="number" step="any" name="a" id="a">
+        <br><br>
+        <label for="b">b:</label>
+        <input type="number" step="any" name="b" id="b" required>
+        <br><br>
+        <label for="c">c:</label>
+        <input type="number" step="any" name="c" id="c" required>
+        <br><br>
+        <label for="lowerBound">Lower Bound:</label>
+        <input type="number" step="any" name="lowerBound" id="lowerBound" required>
+        <br><br>
+        <label for="upperBound">Upper Bound:</label>
+        <input type="number" step="any" name="upperBound" id="upperBound" required>
+        <br><br>
+        <label for="partitions">Number of Partitions:</label>
+        <input type="number" name="partitions" id="partitions" min="1" required>
+        <br><br>
+        <button type="submit">Calculate</button>
+    </form>
+    <a href="HistoryServlet">View History</a>
+    </body>
+</html>
